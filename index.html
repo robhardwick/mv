@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>MV | Music Visualisations</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet/less" type="text/css" href="css/mv/mv.less" />
+    <script src="js/libs/less/less-1.3.0.min.js"></script>
+</head>
+<body>
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <h1 class="brand">MV || Visualise Music</h2>
+                <div id="player"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <canvas id="viz" width="940" height="400">
+            <p>Your browser doesn't appear to support <a href="http://en.wikipedia.org/wiki/WebGL">WebGL</a> which is required to view visualisations</p>
+        </canvas>
+    </div>
+    <div id="yt"></div>
+    <script data-main="js/mv" src="js/libs/require/require-min.js"></script>
+</body>
+</html>
